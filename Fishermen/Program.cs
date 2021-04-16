@@ -63,9 +63,9 @@ namespace Fishermen
             int times = -1;
             string best = "";
 
-            for (int t = 0; t < 97; t++)
+            for (int t = 0; t < (Size / 10) - 3; t++)
             {
-                for (int u = 0; u < 97; u++)
+                for (int u = 0; u < (Size / 10) - 3; u++)
                 {
                     temp = 0;
                     times++;
